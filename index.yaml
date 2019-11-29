@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  new-helm-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2019-11-29T10:59:57.365914+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 30d4d4a76f202f51214ad1ff0843119a95bd030bd5be4d152f2fb99d885a26cc
+    name: new-helm-chart
+    type: application
+    urls:
+    - https://karan-wahie03/github.io/helm-repo-kw/new-helm-chart-0.1.0.tgz
+    version: 0.1.0
   test-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2019-11-29T10:27:52.920941+05:30"
+    created: "2019-11-29T10:59:57.36635+05:30"
     description: A Helm chart for Kubernetes
     digest: 4f5cb611edb6b5ae92559af2776083d260defbabcf988ccf649249628e12892f
     name: test-chart
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://karan-wahie03/github.io/helm-repo-kw/test-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2019-11-29T10:27:52.919011+05:30"
+generated: "2019-11-29T10:59:57.365317+05:30"
