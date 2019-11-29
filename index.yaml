@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  test-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2019-11-29T10:27:52.920941+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 4f5cb611edb6b5ae92559af2776083d260defbabcf988ccf649249628e12892f
+    name: test-chart
+    type: application
+    urls:
+    - https://karan-wahie03/github.io/helm-repo-kw/test-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2019-11-29T10:27:52.919011+05:30"
