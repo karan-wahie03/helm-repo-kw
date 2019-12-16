@@ -3,7 +3,7 @@ entries:
   another-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2019-11-29T12:10:39.006713+05:30"
+    created: "2019-12-16T13:59:57.877919+05:30"
     description: A Helm chart for Kubernetes
     digest: c148c8c8e8d9053b8a02f0d5aeb85ab017e33c7e741391a2924f8ace9a2e3b00
     name: another-chart
@@ -14,7 +14,7 @@ entries:
   new-helm-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2019-11-29T12:10:39.007495+05:30"
+    created: "2019-12-16T13:59:57.878603+05:30"
     description: A Helm chart for Kubernetes
     digest: 30d4d4a76f202f51214ad1ff0843119a95bd030bd5be4d152f2fb99d885a26cc
     name: new-helm-chart
@@ -22,10 +22,21 @@ entries:
     urls:
     - https://karan-wahie03.github.io/helm-repo-kw/new-helm-chart-0.1.0.tgz
     version: 0.1.0
+  secret-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2019-12-16T13:59:57.879325+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 1406febf0ae0e917524e0cee52c0abe7a1adb50874dd8b01952a7c705f0793a7
+    name: secret-chart
+    type: application
+    urls:
+    - https://karan-wahie03.github.io/helm-repo-kw/secret-chart-0.1.0.tgz
+    version: 0.1.0
   test-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2019-11-29T12:10:39.008259+05:30"
+    created: "2019-12-16T13:59:57.879919+05:30"
     description: A Helm chart for Kubernetes
     digest: 4f5cb611edb6b5ae92559af2776083d260defbabcf988ccf649249628e12892f
     name: test-chart
@@ -33,4 +44,4 @@ entries:
     urls:
     - https://karan-wahie03.github.io/helm-repo-kw/test-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2019-11-29T12:10:39.002691+05:30"
+generated: "2019-12-16T13:59:57.87675+05:30"
